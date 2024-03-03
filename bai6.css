@@ -1,0 +1,36 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image: url(bautroidem.jpg);
+    width:1000px;
+    height:70px;
+}
+.content{
+    justify-content:space-around;
+    align-items: center;
+    justify-items: center;
+    display:flex; 
+    width:400px;
+    margin: 200px 700px;
+    flex-direction: row;
+    padding:100px;
+
+}
+.text{
+    justify-content:center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding:50px
+}
+h2{
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+h3{
+    color: yellow;
+    font-size: 20px;
+    font-weight: lighter; 
+}

@@ -1,0 +1,38 @@
+.container{
+    margin:auto;
+    padding:auto;
+    justify-content: left;
+    display:block;
+}
+.title{
+    font-size:30px ;
+    font-weight: bolder;
+}
+.picture{
+    width:fit-content;
+    height:fit-content;
+}
+.tiltle-1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tiltle-2{
+    font-size: 15px;
+    color:grey;
+    font-weight: lighter;
+
+}
+.list{
+    color:grey;
+    display: inline;
+    list-style: none;
+    
+}
+button{
+    background-color:blue;
+    display:inline-flex;
+    border-color: blue;
+    color: white;
+    padding:10px;
+    margin:10px 5px;
+}
