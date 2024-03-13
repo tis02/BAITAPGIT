@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+   
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(253, 208, 215);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{ 
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width:380px;
+}
+.input-user {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-user input {
+    padding-right: 8px;
+  }
+  
+  .input-user i {
+    position: absolute;
+    top: -3px;
+    right: 20px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .input-lock {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-lock input {
+    padding-right: 8px;
+  }
+  
+  .input-lock i {
+    position: absolute;
+    top: -3px;
+    right: 20px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(117, 229, 237);
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nd {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    line-height: -19;
+}
+.link .sign-up-button {
+    color: white;
+    background-color: white;
+    margin-left: 120px; 
+    line-height: 5;
+}

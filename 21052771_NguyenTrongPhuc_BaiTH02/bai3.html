@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="bai3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Liên hệ</h1>
+        </div>
+    <br>
+    <hr width="2000px" align="left" size="5px" color="red"/>
+    </header>
+        <div class="container">
+            <div class="contact-info">
+                <h2>Thông tin liên hệ</h2>
+                <ul>
+                    <li> <i class="bi bi-geo-alt-fill"></i>  Kp. 6. P. Linh Trung, Tp. Thủ Đức, Tp. HCM</li>
+                    <li> <i class="bi bi-envelope-fill"></i>    info@uit.edu.vn</li>
+                    <li> <i class="bi bi-telephone-fill"></i>   +84 28 372 52002</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h2>Hãy liên lạc với chúng tôi bất cứ khi nào!!!</h2>
+                <form action="#" onsubmit="return confirmSubmission()">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Nhập họ và tên">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Nhập email">
+                    <label for="subject"></label>
+                    <input type="text" id="subject" name="subject" placeholder="Nhập tiêu đề bài viết">
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Nhập nội dung cần gửi"></textarea>
+                    <button type="submit">Gửi tin nhắn</button>
+                </form>
+            </div>
+        </div>
+    <script src="bai3.js"></script>
+</body>
+</html>
