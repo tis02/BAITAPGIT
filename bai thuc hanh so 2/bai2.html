@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đóng góp ý kiến về sản phẩm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <h1>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+    <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu <br> Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm (nêú có)</p>
+    <div class="content">
+    <form action="#" onsubmit="return confirmFormsubmit()">
+        <div class="content-left">
+        <input type="text" id="name" name="name" required placeholder="Họ và tên">
+        <br>
+        <input type="number" id="phone" name="phone" required placeholder="Số điện thoại">
+        <br>
+        <select id="customertype" name="customertype">
+            <option value=""> Chọn loại khách hàng</option>
+            <option value="gold">Vàng</option>
+            <option value="silver">Bạc</option>
+            <option value="bronze">Đồng</option>
+        </select>
+        </div>
+        <div class="content-right">
+        <br>
+        <input type="text" id="mathe" name="mathe" required placeholder="Mã thẻ">
+        <br>
+        <input type="email" id="email" name="email" required placeholder="Email">
+        <br>
+        <input type="text" id="mahoadon" name="mahoadon" required placeholder="Mã hóa đơn">
+        <br>
+        </div>
+        <textarea id="noidung" name="noidung" rows="5" required placeholder="Nội dung góp ý"></textarea>
+        <br>
+        <button type="submit">Gửi góp ý <i class="bi bi-chat-dots-fill"></i></button>
+    </form>
+    </div>
+    <script src="./bai2.js"></script>
+</body>
+</html>
