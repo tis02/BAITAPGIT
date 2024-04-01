@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đặt bàn</title>
+<link rel="stylesheet" href="test.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="menu1" class="menu1">
+    <div class="logo">
+        <img src="/images/logo.png" alt="Logo">
+    </div>
+<nav class="menu">
+    <ul>
+        <li><a href="Index.html">Trang chủ</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="GIOITHIEU.html">Giới thiệu</a></li>
+        <li><a href="#">Đặt bàn</a></li>
+        <li><a href="lienhe.html">Liên hệ</a></li>
+    </ul>
+</nav>
+</header>
+<DIV class="container">
+    <div class="form">
+  <h1>Đặt bàn</h1>
+  <form id="reservationForm">
+    <div class="form-group">
+      <label for="name">Họ và tên:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Số điện thoại:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="date">Ngày:</label>
+      <input type="date" id="date" name="date" required>
+    </div>
+    <div class="form-group">
+      <label for="time">Thời gian:</label>
+      <input type="time" id="time" name="time" required>
+    </div>
+    <div class="form-group">
+      <label for="guests">Số lượng khách:</label>
+      <input type="number" id="guests" name="guests" min="1" required>
+    </div>
+    <div class="form-group">
+      <button id="submitButton" type="submit">Đặt bàn</button>
+    </div>
+  </form>
+    </div>
+  <div id="message"></div>
+</div>
+<script src="test.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    flex-direction: column;
+  }
+  #menu1.scrolled .logo img {
+    content: url("images/logo.png");
+    height: 60px;
+  
+  }
+  header {
+    background-color: #23212199;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lobster', cursive;
+    width: 100%;
+    margin-top: -50px;
+}
+
+header .logo {
+    margin-right: 20px;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .menu ul li {
+    margin-right: 20px;
+}
+nav.menu ul li a {
+    position: relative;
+    font-size: x-large;
+    color: #f3f1f1;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav.menu ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4caf50;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav.menu ul li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+/* nav */
+nav .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+  .container {
+    max-width: 400px;
+    width: 100%;
+    padding: 0px 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #error {
+    color: red;
+  }
+  

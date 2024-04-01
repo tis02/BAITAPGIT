@@ -1,0 +1,65 @@
+body{
+    padding:0px;
+    margin:0px 0px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.container{
+    background-image: url(./img/pngtree-chinese-restaurant-inside-with-many-asian-lanterns-on-the-walls-image_2539958.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height:1000px;
+    opacity:0.9;
+    justify-content: center;
+    
+    font-family: Arial, sans-serif;
+  
+  
+
+}
+.header-img{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width:100% ;
+    padding: 80px;
+}
+.header-tiltle{
+    color:white;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding-left: 90px;
+    font-size: 25px;
+    font-weight: 100px;   
+
+}
+.content p{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100px;
+}
+.content-img{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.ten{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .box{
+    width: 30%;
+  }
