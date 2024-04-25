@@ -1,0 +1,278 @@
+
+body{
+    padding:0px;
+    margin:0px 0px;
+
+}
+.container{
+    background-image: url(/images/hinh-nen-hoa-van-mau-den_100215711.jpg);
+    max-width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+#menu1.scrolled .logo img {
+    content: url("images/logo.png");
+    height: 60px;
+  
+  }
+  header {
+    background-color: rgb(97, 97, 97);
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lobster', cursive;
+    opacity:1px;
+
+}
+
+header .logo {
+    margin-right: 20px;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .menu ul li {
+    margin-right: 20px;
+}
+
+/* Thêm hiệu ứng soilid cho menu */
+
+nav.menu ul li a {
+    position: relative;
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav.menu ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4caf50;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav.menu ul li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+/* nav */
+nav .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #030303;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.menu1 {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .menu1.is-sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  
+  .scrolled #menu1 {
+    background-color:#ff0000;
+  }
+  
+.section_1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display:flex;
+}
+
+.section_1 .content_left {
+    height: 300px;
+    max-width: 100%;
+    color:white;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: 100px;
+
+
+}
+.section_1 .content_left h2{
+    margin:40px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.section_1 .content_left p{
+    margin:60px;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
+.section_1 .content_right {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-top: 150px;
+    line-height: 5px ;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+input{
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+textarea{
+	width: 80%;
+	padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  #submit {
+    margin-top: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#submit{
+    margin-top: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit:hover{
+	background-color: #cac3c3;
+}
+.section_2 iframe{
+    width: 100%;
+    margin-top: 120px;
+    height:300px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height:100%;
+    line-height: 5px;
+    margin:0 auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.footer .footer-left{
+    font-size: 15px;
+    padding-left: 150px;
+    margin-top: 40px;
+    float:left;
+    color:white;
+    line-height: 35px;
+}
+.footer .footer-right{
+    float:right;
+    margin-top: 40px;
+    padding-left:20px;
+    font-size: 20px;
+}
+.page{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.img-page{
+    margin-top: 10px;
+    top:5px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.totop{
+    position: fixed;
+    bottom: -10px;
+    right: -10px;
+    padding: 20px;
+    color:red;
+}
+.totop i{
+    font-size: 30px;
+
+}
+.totop:hover {
+   color:white;
+}
+@media all and (max-width: 600px) {
+    /* Adjust font sizes and margins for mobile devices */
+   .section_1.content_left h2 {
+      font-size: 30px;
+      margin: 20px;
+    }
+   .section_1.content_left p {
+      font-size: 18px;
+      margin: 30px;
+    }
+  }
+  
+  /* For tablets */
+  @media all and (max-width: 1024px) {
+    /* Adjust font sizes and margins for tablets */
+   .section_1.content_left h2 {
+      font-size: 35px;
+      margin: 25px;
+    }
+   .section_1.content_left p {
+      font-size: 20px;
+      margin: 35px;
+    }
+  }

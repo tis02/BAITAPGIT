@@ -1,0 +1,401 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/images/retro-pattern-vector-dark-wallpaper-preview.jpg);
+
+  
+}
+
+#menu1.scrolled .logo img {
+  content: url("images/logo1-removebg-preview.png");
+  height: 60px;
+
+}
+header {
+  background-color: #23212199;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Lobster', cursive;
+  margin-top: -50px;
+}
+
+header .logo {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+header .logo img {
+  height: 60px;
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+header .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.menu1 {
+position: fixed;
+top: 35px;
+z-index: 1000;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+width: 100%;
+}
+
+.menu1.is-sticky {
+position: fixed;
+top: 0;
+z-index: 1000;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+width: 100%;
+}
+
+.scrolled #menu1 {
+background-color:#ff0000;
+}
+header .menu ul li {
+  margin-right: 20px;
+}
+nav.menu ul li a {
+  position: relative;
+  font-size: x-large;
+  color: #f3f1f1;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+  transition: 0.3s;
+}
+
+nav.menu ul li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4caf50;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+nav.menu ul li a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+/* nav */
+nav .menu {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #333;
+color: #fff;
+padding: 10px;
+box-sizing: border-box;
+}
+#menu1.scrolled .logo img {
+  content: url("images/logo.png");
+  height: 60px;
+
+}
+
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ font-family: 'Lobster', cursive;
+ font-size: 18px;
+}
+
+.container{
+ width: 467px;
+ padding: 20px;
+ border: 3px solid 	#FFD700;
+ border-radius: 20px;
+ background-image: url(/images/a4a4dddbab34ae13fc1b7fba75bf507b.jpg);
+ margin-top: 20px;
+}
+.form-group {
+  margin-bottom: 30px;
+}
+
+h1{
+ margin-bottom: 10px;
+ font-size: 40px;
+ color: black;
+ text-align: center;
+ line-height: 40px;
+ font-family: "Platypi", serif;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  line-height: 40px;
+  font-weight: lighter;
+}
+::placeholder{
+  font-size: 15px;
+  font-weight: lighter;
+}
+input[type="datetime-local"] {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.payment-form select {
+  font-size: 15px;
+  font-weight: lighter; 
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+}
+.table select {
+  font-size: 15px;
+  font-weight: lighter;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+}
+i{
+  position:absolute;
+  color: black;
+  padding-left: 395px;
+  margin-top: 9px;
+  font-size: smaller;
+}
+
+input{
+ width: 100%;
+ padding: 7px;
+ margin-bottom: 22px;
+ background-color:white;
+ font-family: "Platypi", serif;
+ color:grey;
+}
+.table select{
+  width: 100%;
+  padding:7px;
+  margin: 1px 0px;
+  background-color:white ;
+  font-family: "Platypi", serif;
+  color:grey;
+}
+.payment-form select{
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-top: 18px;
+  font-family: "Platypi", serif;
+  color:grey;
+}
+form {
+  display:inline;
+  flex-direction: column;
+  align-items: center;
+}
+
+#submit{
+ border: none;
+ background-color: orangered;
+ color: white;
+ width: 100px;
+ margin-top: 10px;
+ border-radius: 5px;
+ text-align: center;
+ margin: 0 180px;
+ cursor:pointer;
+}
+#submit:hover{
+ background-color: #333333;
+}
+html{
+  scroll-behavior: smooth;
+}
+.totop i{
+  font-size: 30px;
+
+}
+.totop i{
+  position:fixed;
+  bottom: -10px;
+  right: -10px;
+  padding: 20px;
+  border-radius: 20px;
+  color:rgb(255, 255, 255);
+}
+
+.totop i:hover {
+  color:red;
+}
+.icon-tel {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: phone-bg-animation 2s infinite;
+}
+
+.icon-tel a {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-tel a::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: white;
+  left: -20px;
+  top: -20px;
+  opacity: 0.2;
+  border-radius: 50%;
+  animation: phone-bg-animation 2s infinite;
+}
+
+.icon-tel a img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 17%;
+  top: 17%;
+  animation: phone-icon-animation 1.5s infinite;
+}
+
+@keyframes phone-bg-animation {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+@keyframes phone-icon-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(25deg);
+  }
+  20% {
+    transform: rotate(-25deg);
+  }
+  30% {
+    transform: rotate(25deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+}
+.icon-mes {
+  position: fixed;
+  bottom: 180px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: phone-bg-animation 2s infinite;
+}
+
+.icon-mes a {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-mes a::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: white;
+  left: -20px;
+  top: -20px;
+  opacity: 0.2;
+  border-radius: 50%;
+  animation: phone-bg-animation 2s infinite;
+}
+
+.icon-mes a img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 17%;
+  top: 17%;
+  animation: phone-icon-animation 1.5s infinite;
+}
+
+@keyframes phone-bg-animation {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+@keyframes phone-icon-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(25deg);
+  }
+  20% {
+    transform: rotate(-25deg);
+  }
+  30% {
+    transform: rotate(25deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Dành cho điện thoại */
+@media all and (min-width: 380px) {
+  
+
+}
+
+
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {
+
+
+}
