@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Liên hệ Nihao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/images/title.png">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="lienhe.css">
+</head>
+<body>
+    <header id="menu1" class="menu1">
+        <div class="logo">
+        <img src="/images/logo.png" alt="Logo">
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="Index.html">Trang chủ</a></li>
+            <li><a href="menutest.html">Thực đơn</a></li>
+            <li><a href="GIOITHIEU.html">Giới thiệu</a></li>
+            <li><a href="datban.html">Đặt bàn</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <li><a class="icon-login" href="login.html"><i class="bi bi-person-circle"></i></a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="section_1">
+                <div class="content_left">
+                    <h2>Nihao xin được phục vụ quý khách tại:</h2>
+                    <p>
+                        <i class="bi bi-house-door-fill"></i> CN : Số 12 Nguyễn Văn Bảo, Phường 4, Quận Gò Vấp, Thành phố Hồ Chí Minh <br>
+                        <i class="bi bi-telephone-fill"></i> Số điện thoại: 0123456789 <br>
+                        <i class="bi bi-envelope-fill"></i> Gmail: Nihao@gmail.com<BR>
+                        <i class="bi bi-calendar3"></i> Thứ 2-CN: 08:00-21:00 <br>                    
+                    </p>
+                </div>
+                <div class="content_right">
+                    <form method="post" action="https://script.google.com/macros/s/AKfycbzMtJKG4nTmMs0dlPkgZvYmJ4CWa0e7P9T3ol83lT7318uZvlLm5PD75E8ntf5AAsvlWA/exec" name="form-lh">
+                        <input type="text" name="your-name" placeholder="Họ tên">
+                        <input type="text" name="your-number" placeholder="Điện thoại">
+                        <input type="email" name="your-email" placeholder="Email">
+                        <textarea name="message" rows="7" placeholder="Thông điệp..."></textarea>
+                        <input type="submit" value="Gửi" id="submit">
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="section_2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8582379826526!2d106.68427047437332!3d10.822158889329428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1708350100240!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+            <p>
+                <i class="bi bi-house-door-fill"></i> Địa chỉ : Số 12 Nguyễn Văn Bảo, Phường 4, Quận Gò Vấp, TP.HCM<br>
+                <i class="bi bi-telephone-fill"></i> Số điện thoại: 0123456789 <br>
+                <i class="bi bi-envelope-fill"></i> Gmail: Nihao@gmail.com<BR>
+                <i class="bi bi-calendar3"></i> Thứ 2-CN: 08:00-21:00 <br>                    
+            </p>
+            </div>
+            
+            <div class="footer-right">
+                <a href="https://www.facebook.com/profile.php?id=61556697402212&mibextid=ZbWKwL" class="page" ><i class="bi bi-facebook"></i> Trang Facebook</a>
+                <div class="img-page">
+                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61556697402212" data-tabs="timeline" data-width="420px" data-height="70px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61556697402212" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61556697402212">Nihao restaurant </a></blockquote></div>
+                </div> 
+            </div>
+        </div>
+        <a class="totop" href="#">
+            <i class="bi bi-arrow-up-circle-fill"></i>
+        </a>
+    </div>
+    <div class="message"></div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0" nonce="ZPUsjrD9"></script>
+    <script src="lienhe.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.all.min.js"></script>
+
+</body>
+</html>

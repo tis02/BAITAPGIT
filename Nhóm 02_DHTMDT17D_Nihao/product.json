@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Lẩu Tứ Xuyên",
+        "price": 450000,
+        "image": "images/lautuxuyen.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Vịt quay Bắc Kinh",
+        "price": 600000,
+        "image": "images/kisspng-roast-chicken-peking-duck-roast-goose-barbecue-chi-beijing-roast-duck-pictures-5a830a772275c2.8251246615185373351412.png"
+    },
+    {
+        "id": 3,
+        "name": "Súp Bào Ngư Tứ Quý",
+        "price": 490000,
+        "image": "images/sp3.png"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Dimsum",
+        "price": 60000,
+        "image": "images/suicao.png"
+    },
+    {
+        "id": 5,
+        "name": "Chân gà Tàu xì",
+        "price": 70000,
+        "image": "images/changa.png"
+    },
+    {
+        "id": 6,
+        "name": "Cá hấp xì dầu",
+        "price": 250000,
+        "image": "images/cahapxidau.png"
+    },
+    {
+        "id": 7,
+        "name": "Bào ngư sốt dầu hào",
+        "price": 180000,
+        "image": "images/baongusot.png"
+    },
+    {
+        "id": 8,
+        "name": "Bánh bao kim sa",
+        "price": 79000,
+        "image": "images/banhbaokimsa.png"
+    }
+    ,
+    {
+        "id": 9,
+        "name": "Mì Trường Thọ",
+        "price": 79000,
+        "image": "images/mitruongtho.png"
+    }
+    ,
+    {
+        "id": 10,
+        "name": "Trà gừng cam xả",
+        "price": 30000,
+        "image": "images/tragung.png"
+    },
+    {
+        "id": 11,
+        "name": "Trà sữa HongKong",
+        "price": 35000,
+        "image": "images/trasuahk.png"
+    },
+    {
+        "id": 12,
+        "name": "Nước ngọt các loại",
+        "price": 20000,
+        "image": "images/nuocngotcacloai.png"
+    }
+]
