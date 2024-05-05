@@ -1,0 +1,358 @@
+
+body{
+    font-family: "Freeman", sans-serif;
+    margin: 0;
+    font-size: 13px;
+    --color: #eee;
+    color: var(--color);
+    background-color: #23282E;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    padding-top: 10px;
+}
+header nav a{
+    margin: 0 30px;
+    color: white;
+    font-size:larger;
+}
+
+.tab{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.tab .container{
+    width: 1140px;
+    max-width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+}
+.avatar{
+    margin-top: 50px;
+}
+#intro{
+    background-color: #000000;
+}
+#intro .avatar-move{
+    text-align: right;
+    height: 100%;
+}
+#intro .avatar-move img{
+    height: 100%;
+    border-radius: 20%;
+}
+#intro .content{
+    position: absolute;
+    top: 60%;
+    left: 30px;
+    transform: translateY(-40%);
+    width: 70%;
+}
+.typing-effect {
+    font-size: 60px;
+    font-family: "Freeman", sans-serif;
+    font-weight: bold;
+  }
+  
+  #typed-name {
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-right: 2px solid #000; 
+    animation-duration: 3s;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  .avatar-move {
+    animation: move 2s infinite;
+    transition: transform 1s;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(60px, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  .job-text {
+    animation: color-change 2s infinite;
+    transition: color 0.5s;
+  }
+  
+  @keyframes color-change {
+    0% {
+      color: rgb(255, 255, 255);
+    }
+    50% {
+      color: rgb(255, 0, 43);
+    }
+    100% {
+      color: rgb(193, 128, 128);
+    }
+  }
+#intro .content .job{
+    font-size: 60px;
+    font-weight:lighter;
+    font-family: "Poetsen One", sans-serif;
+    line-height: 100px;
+}
+
+
+/* skills */
+#skill{
+    background-color: #F2F0EB;
+    color: #eee;
+    background-image: linear-gradient(
+        45deg, #3A2530, #171514, #412726
+    );
+    background-size: cover;
+}
+
+.skill-1{
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .skill-1 h2 {
+            margin-top: 0;
+        }
+        .skill-1 p {
+            margin: 5px 0;
+        }
+        .progress {
+            background-color: #ddd;
+            border-radius: 5px;
+            height: 20px;
+            margin-top: 5px;
+        }
+        .progress-bar {
+            background-color: #007bff;
+            border-radius: 5px;
+            height: 100%;
+            width: 50%; 
+        }
+
+
+#experience{
+    background-image: linear-gradient(
+        45deg, #212632, #242A34, #3C4C5A
+    );
+    background-size: cover;
+}
+#experience .list{
+    height: 100%;
+    width: max-content;
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    gap: 100px;
+    position: relative;
+    z-index: 1;
+}
+#experience .list .item{
+    display: grid;
+    grid-template-rows: 1fr 50px 1fr;
+    gap: 20px;
+    width: 200px;
+}
+#experience .list .item i{
+    background-color: #ffffff;
+    width: 50px;
+    color: #16222D;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#experience .list .item .time{
+    display: flex;
+    align-items: end;
+    font-size: large;
+}
+#experience .list .item .content .job{
+    font-size: large;
+    margin-left: -50px;
+}
+#experience .list .item:nth-child(odd) .content{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#experience .list .item:nth-child(odd) .time{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    align-items: start;
+}
+#experience .list::before{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #444B57;
+    content: '';
+    z-index: -1;
+}
+#experience .container{
+    overflow: auto;
+    padding: 50px;
+}
+
+#contact{
+    background: #242330;
+    font-family: "Freeman", sans-serif;
+}
+#contact .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #686868;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contactform{
+    margin-left: 28px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100px;
+    padding: 10px;
+    background-color: #04070a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 160px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#response {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+/* effect */
+.tab{
+    position: fixed;
+    inset: 0 0 0 0;
+    z-index: 1;
+}
+#intro{
+    z-index: 2;
+}
+
+.tab.active{
+    --x: 50%;
+    --y: 50%;
+    clip-path: circle(
+        200% at var(--x) var(--y)
+    );
+    animation: showTab 2s ease-in-out 1;
+}
+@keyframes showTab{
+    from{
+        clip-path: circle(
+            0% at var(--x) var(--y)
+        );
+    }
+}
+@media screen and (max-width: 991px){
+    /* ipad, tablets */
+    #intro .avatar img{
+        transform: translateX(200px);
+    }
+
+}
+@media screen and (max-width: 767px){
+    body{
+        font-size: 10px;
+    }
+    header nav a{
+        margin: 10px;
+    }
+    #intro .avatar img{
+        transform: none;
+    }
+    #intro .content{
+        left: 20px;
+    }
+    #intro .content .name{
+        font-size: 4em;
+    }
+    #intro .content i{
+        position: unset;
+    }
+    #skill .list{
+        padding: 0px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #skill .list .item:nth-child(odd){
+        background: unset;
+    }
+    #skill .list .item:nth-child(2),
+    #skill .list .item:nth-child(3n){
+        background: #3F2525;
+    }
+    #project .list{
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    #project .list .item img{
+        height: 100px;
+    }
+}
